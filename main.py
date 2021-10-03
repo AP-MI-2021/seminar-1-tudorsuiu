@@ -76,6 +76,12 @@ while shouldRun:
         x = int(input("Dati numarul: "))
         print(isPrime(x))
 
+    elif optiune == "3":
+        n = int(input("Cate numere urmeaza a fi citite?: "))
+        for i in range(n):
+            x = int(input("Dati numarul: "))
+            print(isPrime(x))
+
     elif optiune == "4":
         x = int(input("Dati numarul: "))
         print(oglindit(x))
